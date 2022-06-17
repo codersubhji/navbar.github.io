@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    width: 100%;
+    min-height: 2.5rem;
+    background-color: black;
+
+}
+.nav ul{
+   display: flex;
+   float: right;
+   margin-right: 3vh;
+   
+}
+ .nav   a {
+     text-decoration: none;
+    list-style-type: none;
+    color: antiquewhite; 
+  
+}
+.nav li{
+    padding-right: 5vh;
+    padding-top: .8vh;
+}
+
+@media (max-width:700px){
+    .nav ul{
+        display: block;
+        padding: 15px;
+
+        
+    }
+    .nav{
+        height: 20rem;
+        padding: 15px;  
+    }
+    .nav li{
+        
+      margin-top: 2rem;
+     text-align: center;
+    }
+}    
+
+.icon {
+ 
+   margin-right: 5rem;
+}
+.icon i{
+    margin-top: 1vh;
+    font-size: 4.5vh;
+    display: none;
+    float: right;
+    color: white;
+    cursor: pointer;
+    
+}
+
+@media (max-width:700px){
+    .icon i{
+        display: block;
+    }
+   
+    
+}
